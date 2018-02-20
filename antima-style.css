@@ -493,4 +493,125 @@ audio,canvas,iframe,img,svg,video {vertical-align: middle; }
 }
 /*ADDING TAGS FOR WEBPAGES */
 .aa-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;padding-top:4px;padding-bottom:4px;text-align:center;border:5px solid gray;}
+/*
+ * APPLYING COLOUR ARRANGEMENTS  IN TEXT AND BACKGROUNDS & BORDERS
+ */
+
+/*
+ *RED COLOUR  HAAAA!
+ */
+.aa-color-text--red {color: rgb(244,67,54) !important; }.aa-color--red {background-color: rgb(244,67,54) !important; }.aa-border--red {border-color: rgb(244,67,54) !important; }
+/*
+ *PINK COLOUR  HAAAA!
+ */
+.aa-color-text--pink {color: rgb(233,30,99) !important; }.aa-color--pink {background-color: rgb(233,30,99) !important; }.aa-border--color {border-color: rgb(233,30,99) !important; }
+
+/*
+ *PURPULE COLOUR  HAAAA!
+ */
+.aa-color-text--purple {color: rgb(156,39,176) !important; }.aa-color--purple {background-color: rgb(156,39,176) !important; }.aa-border--purple {border-color: rgb(156,39,176) !important; }
+/*
+ *DEEP PURPULE COLOUR !
+ */
+.aa-color-text--deep-purple {color: rgb(103,58,183) !important; }.aa-color--deep-purple {background-color: rgb(103,58,183) !important; }.aa-border--deep-purple {border-color: rgb(103,58,183) !important; }
+/*
+ *INDIGO COLOUR !
+ */
+.aa-color-text--indigo {color: rgb(63,81,181) !important; }.aa-color--indigo {background-color: rgb(63,81,181) !important; }.aa-border--indigo {border-color: rgb(63,81,181) !important; }
+/*
+ *BLUE COLOUR !
+ */
+.aa-color-text--blue {color: rgb(33,150,243) !important; }.aa-color--blue {background-color: rgb(33,150,243) !important; }.aa-border--blue {border-color: rgb(33,150,243) !important; }
+/*
+ *LIGHT BLUE COLOUR !
+ */
+.aa-color-text--light-blue {color: rgb(3,169,244) !important; }.aa-color--light-blue {background-color: rgb(3,169,244) !important; }.aa-border--light-blue {border-color: rgb(3,169,244) !important; }
+/*
+ *CYAN COLOUR !
+ */
+.aa-color-text--cyan {color: rgb(0,188,212) !important; }.aa-color--cyan {background-color: rgb(0,188,212) !important; }.aa-border--cyan {border-color: rgb(0,188,212) !important; }
+
+/*
+ *TEAL COLOUR !
+ */
+.aa-color-text--teal {color: rgb(0,150,136) !important; }.aa-color--teal {background-color: rgb(0,150,136) !important; }.aa-border--teal {border-color: rgb(0,150,136) !important; }
+/*
+ *GREEN COLOUR !
+ */
+.aa-color-text--green {color: rgb(76,175,80) !important; }.aa-color--green {background-color: rgb(76,175,80) !important; }.aa-border--green {border-color: rgb(76,175,80) !important; }
+/*
+ *LIGHT GREEN COLOUR !
+ */
+
+.aa-color-text--light-green {color: rgb(139,195,74) !important; }.aa-color--light-green {background-color: rgb(139,195,74) !important; }.aa-border--light-green {background-color: rgb(139,195,74) !important; }
+/*
+ *LIME COLOUR !
+ */
+.aa-color-text--lime {color: rgb(205,220,57) !important; }.aa-color--lime {background-color: rgb(205,220,57) !important; }.aa-border--lime {background-color: rgb(205,220,57) !important; }
+/*
+ *YELLOW COLOUR !
+ */
+.aa-color-text--yellow {color: rgb(255,235,59) !important; }.aa-color--yellow {background-color: rgb(255,235,59) !important; }.aa-border--yellow {background-color: rgb(255,235,59) !important; }
+/*
+ *AMBER COLOUR !
+ */
+.aa-color-text--amber {color: rgb(255,193,7) !important; }.aa-color--amber {background-color: rgb(255,193,7) !important; }.aa-border--amber {background-color: rgb(255,193,7) !important; }
+/*
+ *ORANGE COLOUR !
+ */
+.aa-color-text--orange {color: rgb(255,152,0) !important; }.aa-color--orange {background-color: rgb(255,152,0) !important; }.aa-border--orange {background-color: rgb(255,152,0) !important; }
+/*
+ *DEEP ORANGE COLOUR !
+ */
+.aa-color-text--deep-orange {color: rgb(255,87,34) !important; }.aa-color--deep-orange {background-color: rgb(255,87,34) !important; }.aa-border--deep-orange {border-color: rgb(255,87,34) !important; }
+/*
+ *BROWN COLOUR !
+ */
+.aa-color-text--brown {color: rgb(121,85,72) !important; }.aa-color--brown {background-color: rgb(121,85,72) !important; }.aa-border--brown {border-color: rgb(121,85,72) !important; }
+/*
+ *GREY COLOUR !
+ */
+.aa-color-text--grey {color: rgb(158,158,158) !important; }.aa-color--grey {background-color: rgb(158,158,158) !important; }.aa-border--grey {border-color: rgb(158,158,158) !important; }
+/*
+ *GREY COLOUR !
+ */
+.aa-color-text--blue-grey {color: rgb(96,125,139) !important; }.aa-color--blue-grey {background-color: rgb(96,125,139) !important; }.aa-color--border-grey {background-color: rgb(96,125,139) !important; }
+/*
+ *GREY COLOUR!
+ */
+.aa-color--black {background-color: rgb(0,0,0) !important; }.aa-color-text--black {color: rgb(0,0,0) !important; }.aa-border--black {border-color: rgb(0,0,0) !important; }
+/*
+ *WHITE COLOUR !
+ */
+.aa-color--white {background-color: rgb(255,255,255) !important; }
+.mdl-color-text--white {color: rgb(255,255,255) !important; }
+.aa-border--white {border-color: rgb(255,255,255) !important; }
+/*
+ *PRIMARY COLOUR !
+ */
+.aa-color--primary {background-color: rgb(63,81,181) !important; }
+.aa-color--primary-contrast {background-color: rgb(255,255,255) !important; }
+.aa-color--primary-dark {background-color: rgb(48,63,159) !important; }
+/*
+ *PRIMARY TEXT COLOUR !
+ */
+.aa-color-text--primary {color: rgb(63,81,181) !important; }
+.aa-color-text--primary-contrast {color: rgb(255,255,255) !important; }
+.aa-color-text--primary-dark {color: rgb(48,63,159) !important; }
+.aa-color-text--accent {color: rgb(255,64,129) !important; }
+/*
+ *ACCENT COLOUR!
+ */
+.aa-color--accent {background-color: rgb(255,64,129) !important; }
+.aa-color--accent-contrast {background-color: rgb(255,255,255) !important; }
+/*
+ *ACCENT TEXT COLOUR !
+ */
+.aa-color-text--accent-contrast {color: rgb(255,255,255) !important; }
+
+
+
+
+
+
 
