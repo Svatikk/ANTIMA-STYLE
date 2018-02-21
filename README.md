@@ -15,7 +15,7 @@ Sleek, intuitive, and powerful front-end library for faster and easier web devel
 ## Table of contents
 
 - [Quick start](#quick-start)
-- [Status](#status)
+- [How to use](#How-to-use)
 - [What's included](#whats-included)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Documentation](#documentation)
@@ -24,3 +24,10 @@ Sleek, intuitive, and powerful front-end library for faster and easier web devel
 - [Versioning](#versioning)
 - [Creators](#creators)
 - [Copyright and license](#LICENSE)
+
+
+## Quick start
+- [Download the latest release.](https://github.com/Manshu-Sharma/Antima-Style.git)
+- Antima-Style is free to use.
+- 
+ 
