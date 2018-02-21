@@ -14,20 +14,21 @@ Sleek, intuitive, and powerful front-end library for faster and easier web devel
   
 ## Table of contents
 
-- [Quick start](#quick-start)
+- [Quick start](#quick-introduction)
 - [How to use](#How-to-use)
-- [What's included](#whats-included)
-- [Bugs and feature requests](#bugs-and-feature-requests)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [Community](#community)
-- [Versioning](#versioning)
 - [Creators](#creators)
 - [Copyright and license](#LICENSE)
 
 
-## Quick start
+## Quick introduction
+- Antima-Style is free to use for production pourpose.
 - [Download the latest release.](https://github.com/Manshu-Sharma/Antima-Style.git)
-- Antima-Style is free to use.
-- 
- 
+
+## How to use
+- To use Antima-Style.CSS, just add a link to "Antima-Style.css" in your web pages:
+- Example:
+
+## Creators
+- Manshu Sharma
+
+
