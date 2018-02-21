@@ -23,4 +23,4 @@ Sleek, intuitive, and powerful front-end library for faster and easier web devel
 - [Community](#community)
 - [Versioning](#versioning)
 - [Creators](#creators)
-- [Copyright and license](#copyright-and-license)
+- [Copyright and license](#LICENSE)
