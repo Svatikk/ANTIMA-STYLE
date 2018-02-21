@@ -1,5 +1,5 @@
 
-#Antima-Style
+# Antima-Style
 
 >An implementation of Antima-Style component in CSS and HTML.
 
