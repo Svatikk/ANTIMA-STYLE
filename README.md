@@ -26,6 +26,8 @@ Sleek, intuitive, and powerful front-end library for faster and easier web devel
 
 ## Features
 >Here are the list of following features included in Antima-Style
+#### Text
+#### Fonts
 #### Spinners
 #### Progress-bars
 #### Colors
