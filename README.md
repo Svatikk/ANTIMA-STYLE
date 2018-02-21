@@ -31,4 +31,5 @@ Sleek, intuitive, and powerful front-end library for faster and easier web devel
 ## Creators
 - Manshu Sharma
 
-
+## Copyright and license
+- Code and documentation copyright 2018 the Antima-Style Authors Code released under the [Apache License](https://github.com/Manshu-Sharma/Antima-Style/blob/master/LICENSE).
