@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="antima-style.css">
+            
+            </head>
+    <body>
+        
+        <!-- CREATING A SPINNER -->
+        <div class="aa-container ">
+            
+            <h1>Spinner 1</h1>
+            
+            <div class="aa-circle "></div>
+            
+            
+        </div>
+        
+        </br>
+        </br>
+        </br>
+        
+        <div class="aa-container">
+            
+            <h1>Spinner 2</h1>
+            
+            
+            <div class="aa-box">
+                <div class="aa-boxinner"></div>
+            </div>
+            
+        </div>
+        
+        
+        </br>
+        </br>
+        </br>
+        
+        
+        
+        <div class="aa-container" >
+            
+            <h1>Spinner 3</h1>
+            
+            <div class="aa-loader-container">
+                <div id="aa-loader5" class="aa-loader">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        
+        
+        
+    </body>
+</html>
