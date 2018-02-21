@@ -36,6 +36,9 @@ Sleek, intuitive, and powerful front-end library for faster and easier web devel
 #### Fabs
 #### Buttons
 #### Notes
+#### Quotes
+#### Alerts
+#### List
 #### Inputs
 #### Badges 
 #### Tags
@@ -45,6 +48,8 @@ Sleek, intuitive, and powerful front-end library for faster and easier web devel
 #### Gray scale index
 #### Responsive
 #### Tiny Table
+#### Images
+#### Grid
 
 
 ## How to use
