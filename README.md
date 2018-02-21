@@ -26,23 +26,23 @@ Sleek, intuitive, and powerful front-end library for faster and easier web devel
 
 ## Features
 >Here are the list of following features included in Antima-Style
-### Spinners
-### Progress-bars
-### Colors
-### Panels
-### Cards
-### Fabs
-### Buttons
-### Notes
-### Inputs
-### Badges 
-### Tags
-### Animation
-### Bars
-### Sepia scale index 
-### Gray scale index
-### Responsive
-### Tiny Table
+#### Spinners
+#### Progress-bars
+#### Colors
+#### Panels
+#### Cards
+#### Fabs
+#### Buttons
+#### Notes
+#### Inputs
+#### Badges 
+#### Tags
+#### Animation
+#### Bars
+#### Sepia scale index 
+#### Gray scale index
+#### Responsive
+#### Tiny Table
 
 
 ## How to use
