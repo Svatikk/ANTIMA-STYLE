@@ -15,9 +15,9 @@ Sleek, intuitive, and powerful front-end library for faster and easier web devel
 ## Table of contents
 
 - [Quick start](#quick-introduction)
-- [How to use](#How-to-use)
+- [How to use](#how-to-use)
 - [Creators](#creators)
-- [Copyright and license](#LICENSE)
+- [Copyright and license](#copyright-and-license)
 
 
 ## Quick introduction
