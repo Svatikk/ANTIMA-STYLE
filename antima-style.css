@@ -297,6 +297,7 @@ audio,canvas,iframe,img,svg,video {vertical-align: middle; }
 /*Responsiveness*/
 /*Defines one column in a 12-column responsive grid*/
 /*Responsive sizes for all screens*/
+
 .aa-col--1{width:8.33333% ;float:left; }
 .aa-col--2{width:16.66666%; float:left;}
 .aa-col--3{width:24.99999%; float:left;}
@@ -310,9 +311,7 @@ audio,canvas,iframe,img,svg,video {vertical-align: middle; }
 .aa-col--11{width:91.66666%; float:left;}
 .aa-col--12{width:99.99999%; float:left;}
 .aa-rest{overflow:hidden}
-/*The responsive classes above must be placed inside a aa-row class (or aa-row-padding class) to be fully responsive.*/
-@media (max-width:600px){.aa-hide-small{display:none!important}}
-@media (max-width:992px){.aa-hide-medium{display:none!important}}
+
 
 /*ADDING RIPPLE EFFECT*/
 .aa-ripple:active{opacity:0.5}.aa-ripple{transition:opacity 0s}
