@@ -18,7 +18,7 @@
  * Make html take up the entire screen
  * Then set touch-action to avoid touch delay on mobile IE
  */
-*{margin:0px;padding:0px;}
+*{margin:0px;padding:0px;  box-sizing: border-box;}
 html {color: rgba(0,0,0, 0.86);font-size: 1em;line-height: 1.4;   width: 100%; height: 100%; touch-action: manipulation;}
 html, body {font-family: "Helvetica", "Arial", sans-serif; font-size: 14px;font-weight: 400;line-height: 20px; }
 /*
@@ -121,7 +121,7 @@ audio,canvas,iframe,img,svg,video {vertical-align: middle; }
 /*DISPAY PROPERTIES */
 .aa-hide{display:none!important;}
 .aa-invisible{visibility:invisible;}
-.aa-show--block,.w3-show{display:block!important;}
+.aa-show--block,.aa-show{display:block!important;}
 .aa-show-inline-block{display:inline-block!important;}
 .aa-visible{visibility:visible;}
 /*HANDLE THE GRAY SCALE EFFECT*/
@@ -217,7 +217,7 @@ audio,canvas,iframe,img,svg,video {vertical-align: middle; }
  */
 .aa-panel{margin-top:16px;margin-bottom:16px;padding:0.01em 16px; background:red;}
 
-/*aa-progress-bar this what bootstarp uses but i don't think that i should use it.*/
+/*aa-progress-bar  Applying progress bar*/
 .aa-progress {
     vertical-align: baseline;
 }
@@ -294,11 +294,9 @@ audio,canvas,iframe,img,svg,video {vertical-align: middle; }
     -webkit-clip-path: none;
     clip-path: none;
 }
-/*Responsive ness*/
-.aa-col,.aa-half,.aa-third,.aa-twothird,.aa-threequarter,.aa-quarter{float:left;width:100%}
+/*Responsiveness*/
 /*Defines one column in a 12-column responsive grid*/
 /*Responsive sizes for all screens*/
-/*Combination of all w3-half,w3-third,w3-twothird,w3-quarter,w3-threequarter,w3-rest,w3-col-l1,w3-col-m1,w3-col-s1*/
 .aa-col--1{width:8.33333% ;float:left; }
 .aa-col--2{width:16.66666%; float:left;}
 .aa-col--3{width:24.99999%; float:left;}
@@ -312,9 +310,10 @@ audio,canvas,iframe,img,svg,video {vertical-align: middle; }
 .aa-col--11{width:91.66666%; float:left;}
 .aa-col--12{width:99.99999%; float:left;}
 .aa-rest{overflow:hidden}
-/*The responsive classes above must be placed inside a w3-row class (or w3-row-padding class) to be fully responsive.*/
+/*The responsive classes above must be placed inside a aa-row class (or aa-row-padding class) to be fully responsive.*/
 @media (max-width:600px){.aa-hide-small{display:none!important}}
 @media (max-width:992px){.aa-hide-medium{display:none!important}}
+
 /*ADDING RIPPLE EFFECT*/
 .aa-ripple:active{opacity:0.5}.aa-ripple{transition:opacity 0s}
 /*
@@ -419,7 +418,7 @@ audio,canvas,iframe,img,svg,video {vertical-align: middle; }
     position: relative;
 }
 
-.aa-loader {
+.aa-loader1 {
     height: 50%;
     width: 50%;
     position: absolute;
@@ -430,7 +429,7 @@ audio,canvas,iframe,img,svg,video {vertical-align: middle; }
 
 
 
-#aa-loader5 span {
+#aa-loader2 span {
     display: block;
     height: 50px;
     width: 10px;
@@ -442,12 +441,12 @@ audio,canvas,iframe,img,svg,video {vertical-align: middle; }
     animation: expand 1s ease-in-out infinite;
 }
 
-#aa-loader5 span:first-child {
+#aa-loader2 span:first-child {
     left: 41%;
     animation-delay: .5s;
 }
 
-#aa-loader5 span:last-child {
+#aa-loader2 span:last-child {
     left: 59%;
     animation-delay: .8s;
 }
@@ -523,95 +522,88 @@ audio,canvas,iframe,img,svg,video {vertical-align: middle; }
  */
 .aa-color-text--blue {color: rgb(33,150,243) !important; }.aa-color--blue {background-color: rgb(33,150,243) !important; }.aa-border--blue {border-color: rgb(33,150,243) !important; }
 /*
- *LIGHT BLUE COLOUR !
+ *LIGHT BLUE COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color-text--light-blue {color: rgb(3,169,244) !important; }.aa-color--light-blue {background-color: rgb(3,169,244) !important; }.aa-border--light-blue {border-color: rgb(3,169,244) !important; }
 /*
- *CYAN COLOUR !
+ *CYAN COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color-text--cyan {color: rgb(0,188,212) !important; }.aa-color--cyan {background-color: rgb(0,188,212) !important; }.aa-border--cyan {border-color: rgb(0,188,212) !important; }
 
 /*
- *TEAL COLOUR !
+ *TEAL COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color-text--teal {color: rgb(0,150,136) !important; }.aa-color--teal {background-color: rgb(0,150,136) !important; }.aa-border--teal {border-color: rgb(0,150,136) !important; }
 /*
- *GREEN COLOUR !
+ *GREEN COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color-text--green {color: rgb(76,175,80) !important; }.aa-color--green {background-color: rgb(76,175,80) !important; }.aa-border--green {border-color: rgb(76,175,80) !important; }
 /*
- *LIGHT GREEN COLOUR !
+ *LIGHT GREEN COLOUR AND THEIR RELATIVES HAAAA!
  */
 
 .aa-color-text--light-green {color: rgb(139,195,74) !important; }.aa-color--light-green {background-color: rgb(139,195,74) !important; }.aa-border--light-green {background-color: rgb(139,195,74) !important; }
 /*
- *LIME COLOUR !
+ *LIME COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color-text--lime {color: rgb(205,220,57) !important; }.aa-color--lime {background-color: rgb(205,220,57) !important; }.aa-border--lime {background-color: rgb(205,220,57) !important; }
 /*
- *YELLOW COLOUR !
+ *YELLOW COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color-text--yellow {color: rgb(255,235,59) !important; }.aa-color--yellow {background-color: rgb(255,235,59) !important; }.aa-border--yellow {background-color: rgb(255,235,59) !important; }
 /*
- *AMBER COLOUR !
+ *AMBER COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color-text--amber {color: rgb(255,193,7) !important; }.aa-color--amber {background-color: rgb(255,193,7) !important; }.aa-border--amber {background-color: rgb(255,193,7) !important; }
 /*
- *ORANGE COLOUR !
+ *ORANGE COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color-text--orange {color: rgb(255,152,0) !important; }.aa-color--orange {background-color: rgb(255,152,0) !important; }.aa-border--orange {background-color: rgb(255,152,0) !important; }
 /*
- *DEEP ORANGE COLOUR !
+ *DEEP ORANGE COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color-text--deep-orange {color: rgb(255,87,34) !important; }.aa-color--deep-orange {background-color: rgb(255,87,34) !important; }.aa-border--deep-orange {border-color: rgb(255,87,34) !important; }
 /*
- *BROWN COLOUR !
+ *BROWN COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color-text--brown {color: rgb(121,85,72) !important; }.aa-color--brown {background-color: rgb(121,85,72) !important; }.aa-border--brown {border-color: rgb(121,85,72) !important; }
 /*
- *GREY COLOUR !
+ *GREY COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color-text--grey {color: rgb(158,158,158) !important; }.aa-color--grey {background-color: rgb(158,158,158) !important; }.aa-border--grey {border-color: rgb(158,158,158) !important; }
 /*
- *GREY COLOUR !
+ *GREY COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color-text--blue-grey {color: rgb(96,125,139) !important; }.aa-color--blue-grey {background-color: rgb(96,125,139) !important; }.aa-color--border-grey {background-color: rgb(96,125,139) !important; }
 /*
- *GREY COLOUR!
+ *GREY COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color--black {background-color: rgb(0,0,0) !important; }.aa-color-text--black {color: rgb(0,0,0) !important; }.aa-border--black {border-color: rgb(0,0,0) !important; }
 /*
- *WHITE COLOUR !
+ *WHITE COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color--white {background-color: rgb(255,255,255) !important; }
-.mdl-color-text--white {color: rgb(255,255,255) !important; }
+.aa-color-text--white {color: rgb(255,255,255) !important; }
 .aa-border--white {border-color: rgb(255,255,255) !important; }
 /*
- *PRIMARY COLOUR !
+ *PRIMARY COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color--primary {background-color: rgb(63,81,181) !important; }
 .aa-color--primary-contrast {background-color: rgb(255,255,255) !important; }
 .aa-color--primary-dark {background-color: rgb(48,63,159) !important; }
 /*
- *PRIMARY TEXT COLOUR !
+ *PRIMARY TEXT COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color-text--primary {color: rgb(63,81,181) !important; }
 .aa-color-text--primary-contrast {color: rgb(255,255,255) !important; }
 .aa-color-text--primary-dark {color: rgb(48,63,159) !important; }
 .aa-color-text--accent {color: rgb(255,64,129) !important; }
 /*
- *ACCENT COLOUR!
+ *ACCENT COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color--accent {background-color: rgb(255,64,129) !important; }
 .aa-color--accent-contrast {background-color: rgb(255,255,255) !important; }
 /*
- *ACCENT TEXT COLOUR !
+ *ACCENT TEXT COLOUR AND THEIR RELATIVES HAAAA!
  */
 .aa-color-text--accent-contrast {color: rgb(255,255,255) !important; }
-
-
-
-
-
-
-
