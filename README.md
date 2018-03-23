@@ -8,14 +8,13 @@
 </a>
 <h3 align="center">Antima-Style</h3>
 <p align="center">
-Sleek, intuitive, and powerful front-end library for faster and easier web development.
+Powerful front-end library for faster and easier web development.
 <br>
   
   
 ## Table of contents
 
 - [Quick start](#quick-introduction)
-- [Features](#features)
 - [How to use](#how-to-use)
 - [Creators](#creators)
 - [Copyright and license](#copyright-and-license)
@@ -25,37 +24,8 @@ Sleek, intuitive, and powerful front-end library for faster and easier web devel
 - Antima-Style is free to use for production pourpose.
 - [Download the latest release.](https://github.com/Manshu-Sharma/Antima-Style.git)
 
-## Features
->Here are the list of following features included in Antima-Style
-#### Text
-#### Fonts
-#### Spinners
-#### Progress-bars
-#### Colors
-#### Panels
-#### Cards
-#### Fabs
-#### Buttons
-#### Notes
-#### Quotes
-#### Alerts
-#### List
-#### Inputs
-#### Badges 
-#### Tags
-#### Animation
-#### Bars
-#### Sepia scale index 
-#### Gray scale index
-#### Responsive
-#### Tiny Table
-#### Images
-#### Grid
-
-
 ## How to use
-- To use Antima-Style.CSS, just add a link to "Antima-Style.css" in your web pages:
-- Example:
+- To use Antima-Style.CSS, just add a link  "Antima-Style.css" in your web-pages(.html):
 
 ## Creators
 - Manshu Sharma
