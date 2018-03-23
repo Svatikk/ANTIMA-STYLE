@@ -4,7 +4,7 @@
 >An implementation of Antima-Style component in CSS and HTML.
 
 <p align="center">
-<img src="" alt="" width=72 height=72>
+<img src="Images/antima-style.png" alt="" width=72 height=72>
 </a>
 <h3 align="center">Antima-Style</h3>
 <p align="center">
