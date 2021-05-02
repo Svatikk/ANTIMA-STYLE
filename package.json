@@ -1,0 +1,22 @@
+{
+  "name": "antima-style",
+  "version": "1.0.0",
+  "description": "Powerful front-end library for faster and easier web development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Svatikk/Antima-Style.git"
+  },
+  "keywords": [
+    "Antima-Style"
+  ],
+  "author": "Manshu Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Svatikk/Antima-Style/issues"
+  },
+  "homepage": "https://github.com/Svatikk/Antima-Style#readme"
+}
